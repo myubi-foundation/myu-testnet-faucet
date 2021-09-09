@@ -1,4 +1,4 @@
-# KCC TESTNET Faucet
+# MYUBI TESTNET Faucet
 ### Building from source
 
 1. Clone repository
