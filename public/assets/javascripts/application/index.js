@@ -31,9 +31,9 @@ $(function () {
           var amount = tokenAddress === '0x0' ? '1' : '100';
           swal(
             'Success',
-            `<span style="color:#00D296;font-weight:bold;">${amount} ${tokenName}</span> is successfully transfered to ` +
+            `<span style="color:#FF6D3E;font-weight:bold;">${amount} ${tokenName}</span> is successfully transfered to ` +
               receiver +
-              " in Tx<br /><a style='color:#00D296' href='https://scan-testnet.kcc.network/txs/" +
+              " in Tx<br /><a style='color:#FF6D3E' href='https://scan.testnet.myubi.io/txs/" +
               data.success.txHash +
               "' target='_blank'>" +
               data.success.txHash +

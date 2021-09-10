@@ -43,7 +43,7 @@ module.exports = function (app) {
 	    response.send({
     		code: 200,
     		title: "Success",
-    		message: '0.5 POA successfully sent'
+    		message: '1 MYU successfully sent'
     	});
 	}
 }

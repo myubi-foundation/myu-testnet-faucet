@@ -32,11 +32,11 @@ require('./controllers/index')(app);
 require('./controllers/getTxCallBack')(app);
 
 app.get('/', function(request, response) {
-  response.send('KCC testnet faucet');
+  response.send('MYU testnet faucet');
 });
 
 app.set('port', (process.env.PORT || 5000));
 
 app.listen(app.get('port'), function () {
-    console.log('KCC Testnet faucet is running on port', app.get('port'));
+    console.log('MYU Testnet faucet is running on port', app.get('port'));
 });

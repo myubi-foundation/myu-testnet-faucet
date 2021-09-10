@@ -1,6 +1,6 @@
 body,
 html {
-  background: linear-gradient(180deg, #ddf1eb, #f7f8f9);
+  background: linear-gradient(180deg, #f7e3d6, #f7f8f9);
   min-height: 100vh;
 }
 .content {
@@ -66,12 +66,12 @@ h2.mark {
 }
 
 h2 a {
-  color: #00d89e;
+  color: #FF6D3E;
   font-size: 12px;
 }
 
 #requestTokens {
-  background: #00d89e;
+  background: #FF6D3E;
   width: 435px;
 }
 
@@ -86,10 +86,10 @@ h2 a {
 }
 
 .loading-container {
-  background: linear-gradient(180deg, #ddf1ebe1, #f7f8f9);
+  background: linear-gradient(180deg, #f7e3d6, #f7f8f9);
 }
 .loading-i {
-  background: #00ba83;
+  background: #FF6D3E;
 }
 
 .swal2-title {
@@ -98,7 +98,7 @@ h2 a {
 }
 
 .swal2-styled {
-  background: #00d89e !important;
+  background: #FF6D3E !important;
   font-size: 14px !important;
   width: 100% !important;
 }
@@ -113,7 +113,7 @@ h2 a {
 
 .swal2-modal {
   z-index: 3;
-  background: linear-gradient(360deg, #d6f7ed, #fff) !important;
+  background: linear-gradient(360deg, #f7e3d6, #fff) !important;
 }
 .swal2-success-circular-line-left {
   background: transparent !important;

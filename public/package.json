@@ -1,7 +1,7 @@
 {
-  "name": "kcc-testnet-faucet-front",
+  "name": "myu-testnet-faucet-front",
   "version": "1.0.0",
-  "description": "kcc testnet POA Network network faucet frontend",
+  "description": "myu testnet faucet frontend",
   "main": "gulpfile.js",
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -26,9 +26,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kucoin-community-chain/kcc-testnet-faucet.git"
+    "url": "https://github.com/myubi-foundation/myu-testnet-faucet.git"
   },
   "keywords": [],
-  "author": "kcc",
+  "author": "Myubi",
   "license": "MIT"
 }

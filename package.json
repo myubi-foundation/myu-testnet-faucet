@@ -1,16 +1,16 @@
 {
-  "name": "kcc-testnet-faucet",
+  "name": "myu-testnet-faucet",
   "version": "1.0.0",
-  "description": "Kcc tetnet POA Network faucet",
+  "description": "Myubi Testnet faucet",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kucoin-community-chain/kcc-testnet-faucet.git"
+    "url": "https://github.com/myubi-foundation/myu-testnet-faucet.git"
   },
-  "author": "kcc",
+  "author": "Myu",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.1",

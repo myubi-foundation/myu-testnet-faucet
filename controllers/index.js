@@ -9,7 +9,7 @@ module.exports = function (app) {
 
   app.set('InvalidAddressSet', InvalidAddressSet);
 
-  const applyKCSToday = (address) => {
+  const applyMYUToday = (address) => {
     const receivedList = app.get('InvalidAddressSet');
     return receivedList.has(address);
   };
@@ -26,13 +26,13 @@ module.exports = function (app) {
     var receiver = request.body.receiver;
     var tokenAddress = request.body.tokenAddress;
 
-    // When user apply for the KCS token，check the receiver status
+    // When user apply for the MYU token，check the receiver status
     if (tokenAddress === '0x0') {
-      if (applyKCSToday(receiver)) {
+      if (applyMYUToday(receiver)) {
         return generateErrorResponse(response, {
           code: 500,
           title: 'Error',
-          message: 'Have received KCS within 3 hours',
+          message: 'Have received MYU within 3 hours',
         });
       }
     }
@@ -122,7 +122,7 @@ module.exports = function (app) {
       '0x' + serializedTx.toString('hex'),
       function (err, hash) {
         if (!err) {
-          // When receiver get the KCS token, put the address into invalidAddressSet for 3 hours
+          // When receiver get the MYU token, put the address into invalidAddressSet for 3 hours
           if (tokenAddress === '0x0') {
             const receivedList = app.get('InvalidAddressSet');
             receivedList.add(receiver);
